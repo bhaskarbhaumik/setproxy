@@ -162,6 +162,15 @@ void init_config() {
     read_config_file(user_config_file);
 }
 
+int list_config() {
+    fprintf(stderr, "Proxy Server(s):\n");
+    for (int i = 0; i < _default_proxy_count; i++) {
+        fprintf(stderr, "%6d. %s\n", i+1, _default_proxy[i]);
+    }
+    fprintf(stderr, "\nNo Proxy for:\n\t%s\n", no_proxy);
+    return 0;
+}
+
 /*
  * Convert string to uppercase
  */
@@ -177,7 +186,7 @@ void strtoupper(char *s) {
  */
 int version()
 {
-    printf("%s, version %s\n", program, program_version);
+    fprintf(stderr, "%s, version %s\n", program, program_version);
     return 0;
 }
 
@@ -186,7 +195,7 @@ int version()
  */
 int help()
 {
-    printf("%s, version %s\n\nusage: ./%s [--unset|-u] [--version|-v] [--help|-h] [proxy1] [proxy2] [proxy3]\n\n", program, program_version, program);
+    fprintf(stderr, "%s, version %s\n\nusage: ./%s [--unset|-u] [--version|-v] [--list|-l] [--help|-h] [proxy1] [proxy2] [proxy3]\n\n", program, program_version, program);
     return 0;
 }
 
@@ -385,10 +394,12 @@ int main(int argc, char *argv[])
     // Load configuration from files
     init_config();
     
-    while ((opt = getopt(argc, argv, "uvh")) != -1) {
+    while ((opt = getopt(argc, argv, "ulvh")) != -1) {
         switch (opt) {
             case 'u':
                 return unset_proxy();
+            case 'l':
+                return list_config();
             case 'v':
                 return version();
             case 'h':
