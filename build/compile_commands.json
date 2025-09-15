@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/BB119780/Downloads/setproxy/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc   -g -std=c99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -Wall -Wextra -O2 -o CMakeFiles/setproxy.dir/setproxy.c.o -c /Users/BB119780/Downloads/setproxy/setproxy.c",
+  "file": "/Users/BB119780/Downloads/setproxy/setproxy.c",
+  "output": "CMakeFiles/setproxy.dir/setproxy.c.o"
+}
+]
