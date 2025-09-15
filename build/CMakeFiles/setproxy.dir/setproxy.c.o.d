@@ -1,5 +1,5 @@
 CMakeFiles/setproxy.dir/setproxy.c.o: \
-  /Users/BB119780/Downloads/setproxy/setproxy.c \
+  /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/setproxy.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/_bounds.h \

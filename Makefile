@@ -17,55 +17,55 @@
 
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
-	false; \
+    false; \
   elif test -n '$(MAKE_HOST)'; then \
-	true; \
+    true; \
   elif test -n '$(MAKE_VERSION)' && test -n '$(CURDIR)'; then \
-	true; \
+    true; \
   else \
-	false; \
+    false; \
   fi; \
 }
 am__make_running_with_option = \
   case $${target_option-} in \
-	  ?) ;; \
-	  *) echo "am__make_running_with_option: internal error: invalid" \
-		      "target option '$${target_option-}' specified" >&2; \
-		 exit 1;; \
+      ?) ;; \
+      *) echo "am__make_running_with_option: internal error: invalid" \
+              "target option '$${target_option-}' specified" >&2; \
+         exit 1;; \
   esac; \
   has_opt=no; \
   sane_makeflags=$$MAKEFLAGS; \
   if $(am__is_gnu_make); then \
-	sane_makeflags=$$MFLAGS; \
+    sane_makeflags=$$MFLAGS; \
   else \
-	case $$MAKEFLAGS in \
-	  *\\[\ \	]*) \
-		bs=\\; \
-		sane_makeflags=`printf '%s\n' "$$MAKEFLAGS" \
-		  | sed "s/$$bs$$bs[$$bs $$bs	]*//g"`;; \
-	esac; \
+    case $$MAKEFLAGS in \
+      *\\[\ \	]*) \
+        bs=\\; \
+        sane_makeflags=`printf '%s\n' "$$MAKEFLAGS" \
+          | sed "s/$$bs$$bs[$$bs $$bs	]*//g"`;; \
+    esac; \
   fi; \
   skip_next=no; \
   strip_trailopt () \
   { \
-	flg=`printf '%s\n' "$$flg" | sed "s/$$1.*$$//"`; \
+    flg=`printf '%s\n' "$$flg" | sed "s/$$1.*$$//"`; \
   }; \
   for flg in $$sane_makeflags; do \
-	test $$skip_next = yes && { skip_next=no; continue; }; \
-	case $$flg in \
-	  *=*|--*) continue;; \
-		-*I) strip_trailopt 'I'; skip_next=yes;; \
-	  -*I?*) strip_trailopt 'I';; \
-		-*O) strip_trailopt 'O'; skip_next=yes;; \
-	  -*O?*) strip_trailopt 'O';; \
-		-*l) strip_trailopt 'l'; skip_next=yes;; \
-	  -*l?*) strip_trailopt 'l';; \
-	  -[dEDm]) skip_next=yes;; \
-	  -[JT]) skip_next=yes;; \
-	esac; \
-	case $$flg in \
-	  *$$target_option*) has_opt=yes; break;; \
-	esac; \
+    test $$skip_next = yes && { skip_next=no; continue; }; \
+    case $$flg in \
+      *=*|--*) continue;; \
+        -*I) strip_trailopt 'I'; skip_next=yes;; \
+      -*I?*) strip_trailopt 'I';; \
+        -*O) strip_trailopt 'O'; skip_next=yes;; \
+      -*O?*) strip_trailopt 'O';; \
+        -*l) strip_trailopt 'l'; skip_next=yes;; \
+      -*l?*) strip_trailopt 'l';; \
+      -[dEDm]) skip_next=yes;; \
+      -[JT]) skip_next=yes;; \
+    esac; \
+    case $$flg in \
+      *$$target_option*) has_opt=yes; break;; \
+    esac; \
   done; \
   test $$has_opt = yes
 am__make_dryrun = (target_option=n; $(am__make_running_with_option))
@@ -145,8 +145,8 @@ SOURCES = $(setproxy_SOURCES)
 DIST_SOURCES = $(setproxy_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
-	n|no|NO) false;; \
-	*) (install-info --version) >/dev/null 2>&1;; \
+    n|no|NO) false;; \
+    *) (install-info --version) >/dev/null 2>&1;; \
   esac
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 # Read a list of newline-separated strings from the standard input,
@@ -163,7 +163,7 @@ am__uniquify_input = $(AWK) '\
 am__define_uniq_tagged_files = \
   list='$(am__tagged_files)'; \
   unique=`for i in $$list; do \
-	if test -f "$$i"; then echo $$i; else echo $(srcdir)/$$i; fi; \
+    if test -f "$$i"; then echo $$i; else echo $(srcdir)/$$i; fi; \
   done | $(am__uniquify_input)`
 AM_RECURSIVE_TARGETS = cscope
 am__DIST_COMMON = $(srcdir)/Makefile.in README.md compile depcomp \
@@ -173,14 +173,15 @@ distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
 am__remove_distdir = \
   if test -d "$(distdir)"; then \
-	find "$(distdir)" -type d ! -perm -700 -exec chmod u+rwx {} ';' \
-	  ; rm -rf "$(distdir)" \
-	  || { sleep 5 && rm -rf "$(distdir)"; }; \
+    find "$(distdir)" -type d ! -perm -700 -exec chmod u+rwx {} ';' \
+      ; rm -rf "$(distdir)" \
+      || { sleep 5 && rm -rf "$(distdir)"; }; \
   else :; fi
 am__post_remove_distdir = $(am__remove_distdir)
-DIST_ARCHIVES = $(distdir).tar.gz
+DIST_ARCHIVES = $(distdir).tar.gz $(distdir).tar.bz2 $(distdir).tar.xz \
+	$(distdir).zip
 GZIP_ENV = -9
-DIST_TARGETS = dist-gzip
+DIST_TARGETS = dist-xz dist-bzip2 dist-gzip dist-zip
 # Exists only to be overridden by the user if desired.
 AM_DISTCHECK_DVI_TARGET = dvi
 distuninstallcheck_listfiles = find . -type f -print
@@ -188,13 +189,13 @@ am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = \
   find . \( -type f -a \! \
-		    \( -name .nfs* -o -name .smb* -o -name .__afs* \) \) -print
-ACLOCAL = ${SHELL} '/Users/BB119780/Downloads/setproxy/missing' aclocal-1.18
+            \( -name .nfs* -o -name .smb* -o -name .__afs* \) \) -print
+ACLOCAL = ${SHELL} '/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/missing' aclocal-1.18
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AUTOCONF = ${SHELL} '/Users/BB119780/Downloads/setproxy/missing' autoconf
-AUTOHEADER = ${SHELL} '/Users/BB119780/Downloads/setproxy/missing' autoheader
-AUTOMAKE = ${SHELL} '/Users/BB119780/Downloads/setproxy/missing' automake-1.18
+AUTOCONF = ${SHELL} '/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/missing' autoconf
+AUTOHEADER = ${SHELL} '/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/missing' autoheader
+AUTOMAKE = ${SHELL} '/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/missing' automake-1.18
 AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -219,7 +220,7 @@ LDFLAGS =
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} '/Users/BB119780/Downloads/setproxy/missing' makeinfo
+MAKEINFO = ${SHELL} '/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/missing' makeinfo
 MKDIR_P = /opt/homebrew/opt/coreutils/libexec/gnubin/mkdir -p
 OBJEXT = o
 PACKAGE = setproxy
@@ -234,10 +235,10 @@ SET_MAKE =
 SHELL = /bin/sh
 STRIP = 
 VERSION = 0.1.0
-abs_builddir = /Users/BB119780/Downloads/setproxy
-abs_srcdir = /Users/BB119780/Downloads/setproxy
-abs_top_builddir = /Users/BB119780/Downloads/setproxy
-abs_top_srcdir = /Users/BB119780/Downloads/setproxy
+abs_builddir = /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy
+abs_srcdir = /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy
+abs_top_builddir = /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy
+abs_top_srcdir = /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy
 ac_ct_CC = gcc
 am__include = include
 am__leading_dot = .
@@ -258,7 +259,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /Users/BB119780/Downloads/setproxy/install-sh
+install_sh = ${SHELL} /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -279,14 +280,14 @@ target_alias =
 top_build_prefix = 
 top_builddir = .
 top_srcdir = .
-AUTOMAKE_OPTIONS = foreign
+AUTOMAKE_OPTIONS = foreign dist-bzip2 dist-xz dist-zip
 setproxy_SOURCES = setproxy.c
 
 # Add compilation flags
 setproxy_CFLAGS = -Wall -Wextra -O2
 
 # Define the distribution files
-EXTRA_DIST = README.md CMakeLists.txt build.sh .gitignore cmake_clean.cmake
+EXTRA_DIST = README.md CMakeLists.txt build.sh .gitignore cmake_clean.cmake LICENSE
 all: all-am
 
 .SUFFIXES:
@@ -507,6 +508,9 @@ distdir-am: $(DISTFILES)
 	    || exit 1; \
 	  fi; \
 	done
+	$(MAKE) $(AM_MAKEFLAGS) \
+	  top_distdir="$(top_distdir)" distdir="$(distdir)" \
+	  dist-hook
 	-test -n "$(am__skip_mode_fix)" \
 	|| find "$(distdir)" -type d ! -perm -755 \
 		-exec chmod u+rwx,go+rx {} \; -o \
@@ -517,7 +521,6 @@ distdir-am: $(DISTFILES)
 dist-gzip: distdir
 	tardir=$(distdir) && $(am__tar) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).tar.gz
 	$(am__post_remove_distdir)
-
 dist-bzip2: distdir
 	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2
 	$(am__post_remove_distdir)
@@ -529,7 +532,6 @@ dist-bzip3: distdir
 dist-lzip: distdir
 	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz
 	$(am__post_remove_distdir)
-
 dist-xz: distdir
 	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz
 	$(am__post_remove_distdir)
@@ -551,7 +553,6 @@ dist-shar: distdir
 	@echo WARNING: "It will be removed altogether in Automake 2.0" >&2
 	shar $(distdir) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).shar.gz
 	$(am__post_remove_distdir)
-
 dist-zip: distdir
 	-rm -f $(distdir).zip
 	zip -rq $(distdir).zip $(distdir)
@@ -691,33 +692,6 @@ clean: clean-am
 
 clean-am: clean-binPROGRAMS clean-generic mostlyclean-am
 
-# Git operations
-git-status:
-	git status
-
-git-commit:
-	@if [ -z "$(MESSAGE)" ]; then \
-		echo "Usage: make git-commit MESSAGE='Your commit message'"; \
-		exit 1; \
-	fi
-	git add .
-	git commit -m "$(MESSAGE)"
-
-git-push:
-	git push origin main
-
-git-pull:
-	git pull origin main
-
-git-tag:
-	@if [ -z "$(TAG)" ]; then \
-		echo "Usage: make git-tag TAG='v1.0.0'"; \
-		exit 1; \
-	fi
-	git tag -a $(TAG) -m "Release $(TAG)"
-	git push origin $(TAG)
-
-
 distclean: distclean-am
 	-rm -f $(am__CONFIG_DISTCLEAN_FILES)
 	-rm -f ./$(DEPDIR)/setproxy-setproxy.Po
@@ -793,19 +767,20 @@ uninstall-am: uninstall-binPROGRAMS
 .PHONY: CTAGS GTAGS TAGS all all-am am--depfiles am--refresh check \
 	check-am clean clean-binPROGRAMS clean-cscope clean-generic \
 	cscope cscopelist-am ctags ctags-am dist dist-all dist-bzip2 \
-	dist-bzip3 dist-gzip dist-lzip dist-shar dist-tarZ dist-xz \
-	dist-zip dist-zstd distcheck distclean distclean-compile \
-	distclean-generic distclean-tags distcleancheck distdir \
-	distuninstallcheck dvi dvi-am html html-am info info-am \
-	install install-am install-binPROGRAMS install-data \
-	install-data-am install-dvi install-dvi-am install-exec \
-	install-exec-am install-exec-hook install-html install-html-am \
-	install-info install-info-am install-man install-pdf \
-	install-pdf-am install-ps install-ps-am install-strip \
-	installcheck installcheck-am installdirs maintainer-clean \
-	maintainer-clean-generic mostlyclean mostlyclean-compile \
-	mostlyclean-generic pdf pdf-am ps ps-am tags tags-am uninstall \
-	uninstall-am uninstall-binPROGRAMS uninstall-hook
+	dist-bzip3 dist-gzip dist-hook dist-lzip dist-shar dist-tarZ \
+	dist-xz dist-zip dist-zstd distcheck distclean \
+	distclean-compile distclean-generic distclean-tags \
+	distcleancheck distdir distuninstallcheck dvi dvi-am html \
+	html-am info info-am install install-am install-binPROGRAMS \
+	install-data install-data-am install-dvi install-dvi-am \
+	install-exec install-exec-am install-exec-hook install-html \
+	install-html-am install-info install-info-am install-man \
+	install-pdf install-pdf-am install-ps install-ps-am \
+	install-strip installcheck installcheck-am installdirs \
+	maintainer-clean maintainer-clean-generic mostlyclean \
+	mostlyclean-compile mostlyclean-generic pdf pdf-am ps ps-am \
+	tags tags-am uninstall uninstall-am uninstall-binPROGRAMS \
+	uninstall-hook
 
 .PRECIOUS: Makefile
 
@@ -816,6 +791,91 @@ install-exec-hook:
 
 uninstall-hook:
 	@echo "setproxy has been uninstalled from $(bindir)"
+
+# Add dist-hook to clean unnecessary files from distribution
+dist-hook:
+	rm -rf $(distdir)/autom4te.cache
+	rm -rf $(distdir)/build
+	rm -f $(distdir)/*~
+	rm -f $(distdir)/*.o
+
+# Custom target to generate distribution package and verify it
+distcheck-local:
+	@echo "Distribution package has been created and verified."
+
+# Git related targets
+.PHONY: git-status git-add git-commit git-push git-pull git-log git-tag git-branch
+
+# Display git status
+git-status:
+	@echo "Git Repository Status:"
+	@git status
+
+# Add all changes to staging
+git-add:
+	@echo "Adding all changes to staging..."
+	@git add .
+	@echo "Added changes. Current status:"
+	@git status
+
+# Commit changes with a provided message
+# Usage: make git-commit MSG="Your commit message"
+git-commit:
+	@if [ -z "$(MSG)" ]; then \
+		echo "Error: Commit message not provided. Use make git-commit MSG=\"Your commit message\""; \
+		exit 1; \
+	fi
+	@echo "Committing changes with message: $(MSG)"
+	@git commit -m "$(MSG)"
+
+# Push commits to remote repository
+# Usage: make git-push [REMOTE=origin] [BRANCH=main]
+git-push:
+	@REMOTE=$${REMOTE:-origin}; \
+	BRANCH=$${BRANCH:-main}; \
+	echo "Pushing to $${REMOTE}/$${BRANCH}..."; \
+	git push $${REMOTE} $${BRANCH}
+
+# Pull changes from remote repository
+# Usage: make git-pull [REMOTE=origin] [BRANCH=main]
+git-pull:
+	@REMOTE=$${REMOTE:-origin}; \
+	BRANCH=$${BRANCH:-main}; \
+	echo "Pulling from $${REMOTE}/$${BRANCH}..."; \
+	git pull $${REMOTE} $${BRANCH}
+
+# Show git log
+# Usage: make git-log [N=10] (where N is the number of commits to show)
+git-log:
+	@N=$${N:-10}; \
+	echo "Showing last $${N} commits:"; \
+	git log --pretty=format:"%h - %an, %ar : %s" -n $${N}
+
+# Create a new tag
+# Usage: make git-tag TAG=v1.0.0 [MSG="Tag message"]
+git-tag:
+	@if [ -z "$(TAG)" ]; then \
+		echo "Error: Tag name not provided. Use make git-tag TAG=v1.0.0 [MSG=\"Tag message\"]"; \
+		exit 1; \
+	fi
+	@if [ -z "$(MSG)" ]; then \
+		echo "Creating tag $(TAG)..."; \
+		git tag "$(TAG)"; \
+	else \
+		echo "Creating tag $(TAG) with message: $(MSG)"; \
+		git tag -a "$(TAG)" -m "$(MSG)"; \
+	fi
+	@echo "Tag created. Use 'make git-push REMOTE=origin TAG=$(TAG)' to push the tag."
+
+# Create a new branch and switch to it
+# Usage: make git-branch BRANCH=feature-branch
+git-branch:
+	@if [ -z "$(BRANCH)" ]; then \
+		echo "Error: Branch name not provided. Use make git-branch BRANCH=feature-branch"; \
+		exit 1; \
+	fi
+	@echo "Creating and switching to branch $(BRANCH)..."
+	@git checkout -b "$(BRANCH)"
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

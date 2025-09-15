@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/BB119780/Downloads/setproxy
+CMAKE_SOURCE_DIR = /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/BB119780/Downloads/setproxy/build
+CMAKE_BINARY_DIR = /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -86,14 +86,14 @@ clean: CMakeFiles/clean-all.dir/clean
 CMakeFiles/setproxy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/setproxy.dir/build.make CMakeFiles/setproxy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/setproxy.dir/build.make CMakeFiles/setproxy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/BB119780/Downloads/setproxy/build/CMakeFiles --progress-num=1,2 "Built target setproxy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles --progress-num=1,2 "Built target setproxy"
 .PHONY : CMakeFiles/setproxy.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/setproxy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/BB119780/Downloads/setproxy/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/setproxy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/BB119780/Downloads/setproxy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles 0
 .PHONY : CMakeFiles/setproxy.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ setproxy: CMakeFiles/setproxy.dir/rule
 # codegen rule for target.
 CMakeFiles/setproxy.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/setproxy.dir/build.make CMakeFiles/setproxy.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/BB119780/Downloads/setproxy/build/CMakeFiles --progress-num=1,2 "Finished codegen for target setproxy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles --progress-num=1,2 "Finished codegen for target setproxy"
 .PHONY : CMakeFiles/setproxy.dir/codegen
 
 # clean rule for target.
@@ -118,14 +118,14 @@ CMakeFiles/setproxy.dir/clean:
 CMakeFiles/clean-all.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean-all.dir/build.make CMakeFiles/clean-all.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean-all.dir/build.make CMakeFiles/clean-all.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/BB119780/Downloads/setproxy/build/CMakeFiles --progress-num= "Built target clean-all"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles --progress-num= "Built target clean-all"
 .PHONY : CMakeFiles/clean-all.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean-all.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/BB119780/Downloads/setproxy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clean-all.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/BB119780/Downloads/setproxy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles 0
 .PHONY : CMakeFiles/clean-all.dir/rule
 
 # Convenience name for target.
@@ -135,7 +135,7 @@ clean-all: CMakeFiles/clean-all.dir/rule
 # codegen rule for target.
 CMakeFiles/clean-all.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean-all.dir/build.make CMakeFiles/clean-all.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/BB119780/Downloads/setproxy/build/CMakeFiles --progress-num= "Finished codegen for target clean-all"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles --progress-num= "Finished codegen for target clean-all"
 .PHONY : CMakeFiles/clean-all.dir/codegen
 
 # clean rule for target.

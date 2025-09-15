@@ -1,0 +1,33 @@
+# Build directories
+build/
+_CPack_Packages/
+
+# Autotools generated files
+autom4te.cache/
+aclocal.m4
+compile
+config.guess
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+missing
+Makefile
+Makefile.in
+
+# Object files and executables
+*.o
+setproxy
+
+# Distribution files
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+
+# Editor files
+*~
+.vscode/
+.idea/

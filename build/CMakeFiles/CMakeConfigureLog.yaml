@@ -43,19 +43,11 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/Library/Developer/CommandLineTools/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Users/BB119780/opt/miniforge3/condabin/uname"
       - "/Users/BB119780/opt/oracle/instantclient/uname"
@@ -99,19 +91,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "message-v1"
     backtrace:
@@ -163,19 +147,11 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/Library/Developer/CommandLineTools/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Users/BB119780/opt/miniforge3/condabin/gmake"
       - "/Users/BB119780/opt/oracle/instantclient/gmake"
@@ -200,19 +176,11 @@ events:
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/Library/Developer/CommandLineTools/usr/bin/gmake"
-      - "/System/Cryptexes/App/usr/bin/gmake"
       - "/usr/bin/gmake"
       - "/bin/gmake"
       - "/usr/sbin/gmake"
       - "/sbin/gmake"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
-      - "/opt/X11/bin/gmake"
-      - "/Library/Apple/usr/bin/gmake"
-      - "/Library/TeX/texbin/gmake"
-      - "/usr/local/share/dotnet/gmake"
-      - "/Users/BB119780/.dotnet/tools/gmake"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
       - "/Users/BB119780/opt/miniforge3/condabin/make"
       - "/Users/BB119780/opt/oracle/instantclient/make"
       - "/Users/BB119780/.nvm/versions/node/v23.9.0/bin/make"
@@ -261,19 +229,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -323,19 +283,11 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/Library/Developer/CommandLineTools/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Users/BB119780/opt/miniforge3/condabin/cc"
       - "/Users/BB119780/opt/oracle/instantclient/cc"
@@ -385,19 +337,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -448,19 +392,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "message-v1"
     backtrace:
@@ -481,7 +417,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is AppleClang, found in:
-        /Users/BB119780/Downloads/setproxy/build/CMakeFiles/4.1.1/CompilerIdC/a.out
+        /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/4.1.1/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -567,19 +503,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/Library/Developer/CommandLineTools/usr/bin/ar"
     search_context:
       ENV{PATH}:
@@ -606,19 +534,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -662,19 +582,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/Library/Developer/CommandLineTools/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
@@ -701,19 +613,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -757,19 +661,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/Library/Developer/CommandLineTools/usr/bin/strip"
     search_context:
       ENV{PATH}:
@@ -796,19 +692,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -852,19 +740,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/Library/Developer/CommandLineTools/usr/bin/ld"
     search_context:
       ENV{PATH}:
@@ -891,19 +771,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -947,19 +819,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/Library/Developer/CommandLineTools/usr/bin/nm"
     search_context:
       ENV{PATH}:
@@ -986,19 +850,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1042,19 +898,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/Library/Developer/CommandLineTools/usr/bin/objdump"
     search_context:
       ENV{PATH}:
@@ -1081,19 +929,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1137,19 +977,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Library/Developer/CommandLineTools/usr/bin/objcopy"
       - "/Users/BB119780/opt/miniforge3/condabin/objcopy"
@@ -1174,19 +1006,11 @@ events:
       - "/Users/BB119780/bin/objcopy"
       - "/usr/local/sbin/objcopy"
       - "/usr/local/bin/objcopy"
-      - "/System/Cryptexes/App/usr/bin/objcopy"
       - "/usr/bin/objcopy"
       - "/bin/objcopy"
       - "/usr/sbin/objcopy"
       - "/sbin/objcopy"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
-      - "/opt/X11/bin/objcopy"
-      - "/Library/Apple/usr/bin/objcopy"
-      - "/Library/TeX/texbin/objcopy"
-      - "/usr/local/share/dotnet/objcopy"
-      - "/Users/BB119780/.dotnet/tools/objcopy"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
     found: false
     search_context:
       ENV{PATH}:
@@ -1213,19 +1037,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1269,19 +1085,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Library/Developer/CommandLineTools/usr/bin/readelf"
       - "/Users/BB119780/opt/miniforge3/condabin/readelf"
@@ -1306,19 +1114,11 @@ events:
       - "/Users/BB119780/bin/readelf"
       - "/usr/local/sbin/readelf"
       - "/usr/local/bin/readelf"
-      - "/System/Cryptexes/App/usr/bin/readelf"
       - "/usr/bin/readelf"
       - "/bin/readelf"
       - "/usr/sbin/readelf"
       - "/sbin/readelf"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
-      - "/opt/X11/bin/readelf"
-      - "/Library/Apple/usr/bin/readelf"
-      - "/Library/TeX/texbin/readelf"
-      - "/usr/local/share/dotnet/readelf"
-      - "/Users/BB119780/.dotnet/tools/readelf"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
     found: false
     search_context:
       ENV{PATH}:
@@ -1345,19 +1145,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1401,19 +1193,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Library/Developer/CommandLineTools/usr/bin/dlltool"
       - "/Users/BB119780/opt/miniforge3/condabin/dlltool"
@@ -1438,19 +1222,11 @@ events:
       - "/Users/BB119780/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
-      - "/System/Cryptexes/App/usr/bin/dlltool"
       - "/usr/bin/dlltool"
       - "/bin/dlltool"
       - "/usr/sbin/dlltool"
       - "/sbin/dlltool"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
-      - "/opt/X11/bin/dlltool"
-      - "/Library/Apple/usr/bin/dlltool"
-      - "/Library/TeX/texbin/dlltool"
-      - "/usr/local/share/dotnet/dlltool"
-      - "/Users/BB119780/.dotnet/tools/dlltool"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
     found: false
     search_context:
       ENV{PATH}:
@@ -1477,19 +1253,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1533,19 +1301,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Library/Developer/CommandLineTools/usr/bin/addr2line"
       - "/Users/BB119780/opt/miniforge3/condabin/addr2line"
@@ -1570,19 +1330,11 @@ events:
       - "/Users/BB119780/bin/addr2line"
       - "/usr/local/sbin/addr2line"
       - "/usr/local/bin/addr2line"
-      - "/System/Cryptexes/App/usr/bin/addr2line"
       - "/usr/bin/addr2line"
       - "/bin/addr2line"
       - "/usr/sbin/addr2line"
       - "/sbin/addr2line"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
-      - "/opt/X11/bin/addr2line"
-      - "/Library/Apple/usr/bin/addr2line"
-      - "/Library/TeX/texbin/addr2line"
-      - "/usr/local/share/dotnet/addr2line"
-      - "/Users/BB119780/.dotnet/tools/addr2line"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
     found: false
     search_context:
       ENV{PATH}:
@@ -1609,19 +1361,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1665,19 +1409,11 @@ events:
       - "/Users/BB119780/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/Library/Developer/CommandLineTools/usr/bin/tapi"
     search_context:
       ENV{PATH}:
@@ -1704,19 +1440,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1760,19 +1488,11 @@ events:
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/Library/Developer/CommandLineTools/usr/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/X11/bin/"
-      - "/Library/Apple/usr/bin/"
-      - "/Library/TeX/texbin/"
-      - "/usr/local/share/dotnet/"
-      - "/Users/BB119780/.dotnet/tools/"
+      - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Users/BB119780/opt/miniforge3/condabin/install_name_tool"
       - "/Users/BB119780/opt/oracle/instantclient/install_name_tool"
@@ -1822,19 +1542,11 @@ events:
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/Library/Developer/CommandLineTools/usr/bin"
-        - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/X11/bin"
-        - "/Library/Apple/usr/bin"
-        - "/Library/TeX/texbin"
-        - "/usr/local/share/dotnet"
-        - "~/.dotnet/tools"
+        - "/Users/BB119780/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1845,8 +1557,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/BB119780/Downloads/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-VWz3xR"
-      binary: "/Users/BB119780/Downloads/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-VWz3xR"
+      source: "/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-ukDDWn"
+      binary: "/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-ukDDWn"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1858,18 +1570,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/BB119780/Downloads/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-VWz3xR'
+        Change Dir: '/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-ukDDWn'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /Library/Developer/CommandLineTools/usr/bin/make -f Makefile cmTC_7dadb/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7dadb.dir/build.make CMakeFiles/cmTC_7dadb.dir/build
-        Building C object CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o
-        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /Library/Developer/CommandLineTools/usr/bin/make -f Makefile cmTC_55e22/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_55e22.dir/build.make CMakeFiles/cmTC_55e22.dir/build
+        Building C object CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         cc: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/BB119780/Downloads/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-VWz3xR -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/BB119780/Downloads/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-VWz3xR -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-ukDDWn -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-ukDDWn -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/SubFrameworks"
@@ -1881,13 +1593,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_7dadb
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dadb.dir/link.txt --verbose=1
+        Linking C executable cmTC_55e22
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55e22.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7dadb -L/Users/BB119780/opt/oracle/instantclient -L. -L/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_55e22 -L/Users/BB119780/opt/oracle/instantclient -L. -L/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:45:05 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1902,7 +1614,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks
-        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -o cmTC_7dadb
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -o cmTC_55e22
         
       exitCode: 0
   -
@@ -1944,18 +1656,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/BB119780/Downloads/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-VWz3xR']
+        ignore line: [Change Dir: '/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-ukDDWn']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /Library/Developer/CommandLineTools/usr/bin/make -f Makefile cmTC_7dadb/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7dadb.dir/build.make CMakeFiles/cmTC_7dadb.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /Library/Developer/CommandLineTools/usr/bin/make -f Makefile cmTC_55e22/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_55e22.dir/build.make CMakeFiles/cmTC_55e22.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [cc: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/BB119780/Downloads/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-VWz3xR -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/BB119780/Downloads/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-VWz3xR -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-ukDDWn -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/CMakeScratch/TryCompile-ukDDWn -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/SubFrameworks"]
@@ -1967,13 +1679,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_7dadb]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dadb.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_55e22]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55e22.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7dadb -L/Users/BB119780/opt/oracle/instantclient -L. -L/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_55e22 -L/Users/BB119780/opt/oracle/instantclient -L. -L/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1990,14 +1702,14 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_7dadb] ==> ignore
+          arg [cmTC_55e22] ==> ignore
           arg [-L/Users/BB119780/opt/oracle/instantclient] ==> dir [/Users/BB119780/opt/oracle/instantclient]
           arg [-L.] ==> ignore
           arg [-L/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib] ==> dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_7dadb.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_55e22.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -2008,14 +1720,14 @@ events:
         collapse library dir [/Users/BB119780/opt/oracle/instantclient] ==> [/Users/BB119780/opt/oracle/instantclient]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib]
         collapse library dir [/Users/BB119780/opt/oracle/instantclient] ==> [/Users/BB119780/opt/oracle/instantclient]
-        collapse library dir [.] ==> [/Users/BB119780/Downloads/setproxy]
+        collapse library dir [.] ==> [/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib/swift]
         collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks]
         implicit libs: []
         implicit objs: []
-        implicit dirs: [/Users/BB119780/opt/oracle/instantclient;/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib;/Users/BB119780/Downloads/setproxy;/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib/swift]
+        implicit dirs: [/Users/BB119780/opt/oracle/instantclient;/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib;/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy;/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib/swift]
         implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks]
       
       

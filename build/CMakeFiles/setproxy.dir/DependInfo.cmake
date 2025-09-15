@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/BB119780/Downloads/setproxy/setproxy.c" "CMakeFiles/setproxy.dir/setproxy.c.o" "gcc" "CMakeFiles/setproxy.dir/setproxy.c.o.d"
+  "/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/setproxy.c" "CMakeFiles/setproxy.dir/setproxy.c.o" "gcc" "CMakeFiles/setproxy.dir/setproxy.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

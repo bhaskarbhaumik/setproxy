@@ -80,5 +80,5 @@ endif()
 
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/Library/Developer/CommandLineTools/usr/lib/clang/17/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/Users/BB119780/opt/oracle/instantclient;/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib;/Users/BB119780/Downloads/setproxy;/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib/swift")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/Users/BB119780/opt/oracle/instantclient;/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib;/Users/BB119780/src/github.com/bhaskarbhaumik/setproxy;/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib/swift")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/System/Library/Frameworks")

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/BB119780/Downloads/setproxy
+CMAKE_SOURCE_DIR = /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/BB119780/Downloads/setproxy/build
+CMAKE_BINARY_DIR = /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build
 
 # Utility rule file for clean-all.
 
@@ -67,7 +67,7 @@ include CMakeFiles/clean-all.dir/compiler_depend.make
 include CMakeFiles/clean-all.dir/progress.make
 
 CMakeFiles/clean-all:
-	/opt/homebrew/bin/cmake -P /Users/BB119780/Downloads/setproxy/cmake_clean.cmake
+	/opt/homebrew/bin/cmake -P /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/cmake_clean.cmake
 
 CMakeFiles/clean-all.dir/codegen:
 .PHONY : CMakeFiles/clean-all.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/clean-all.dir/clean:
 .PHONY : CMakeFiles/clean-all.dir/clean
 
 CMakeFiles/clean-all.dir/depend:
-	cd /Users/BB119780/Downloads/setproxy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/BB119780/Downloads/setproxy /Users/BB119780/Downloads/setproxy /Users/BB119780/Downloads/setproxy/build /Users/BB119780/Downloads/setproxy/build /Users/BB119780/Downloads/setproxy/build/CMakeFiles/clean-all.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles/clean-all.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/clean-all.dir/depend
 

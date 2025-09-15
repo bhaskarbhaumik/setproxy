@@ -38,3 +38,40 @@ file(REMOVE_RECURSE
 )
 "
 )
+
+# Set package version
+set(CPACK_PACKAGE_VERSION_MAJOR ${PROJECT_VERSION_MAJOR})
+set(CPACK_PACKAGE_VERSION_MINOR ${PROJECT_VERSION_MINOR})
+set(CPACK_PACKAGE_VERSION_PATCH ${PROJECT_VERSION_PATCH})
+
+# Set package metadata
+set(CPACK_PACKAGE_NAME "setproxy")
+set(CPACK_PACKAGE_VENDOR "Your Name")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "A proxy configuration tool")
+set(CPACK_PACKAGE_CONTACT "your-email@example.com")
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE")
+set(CPACK_RESOURCE_FILE_README "${CMAKE_CURRENT_SOURCE_DIR}/README.md")
+
+# Source package configuration
+set(CPACK_SOURCE_GENERATOR "TGZ")
+set(CPACK_SOURCE_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-${PROJECT_VERSION}")
+set(CPACK_SOURCE_IGNORE_FILES
+    "/\\\\.git/"
+    "/build/"
+    "/\\\\.vscode/"
+    "/\\\\.idea/"
+    "\\\\.gitignore$"
+    ".*~$"
+)
+
+# Binary package configuration
+set(CPACK_GENERATOR "TGZ")
+if(UNIX AND NOT APPLE)
+    # Add DEB package for Linux
+    list(APPEND CPACK_GENERATOR "DEB")
+    set(CPACK_DEBIAN_PACKAGE_DEPENDS "libc6")
+    set(CPACK_DEBIAN_PACKAGE_SECTION "utils")
+endif()
+
+# Include CPack
+include(CPack)

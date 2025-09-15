@@ -178,9 +178,10 @@ am__remove_distdir = \
       || { sleep 5 && rm -rf "$(distdir)"; }; \
   else :; fi
 am__post_remove_distdir = $(am__remove_distdir)
-DIST_ARCHIVES = $(distdir).tar.gz
+DIST_ARCHIVES = $(distdir).tar.gz $(distdir).tar.bz2 $(distdir).tar.xz \
+	$(distdir).zip
 GZIP_ENV = -9
-DIST_TARGETS = dist-gzip
+DIST_TARGETS = dist-xz dist-bzip2 dist-gzip dist-zip
 # Exists only to be overridden by the user if desired.
 AM_DISTCHECK_DVI_TARGET = dvi
 distuninstallcheck_listfiles = find . -type f -print
@@ -279,14 +280,14 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-AUTOMAKE_OPTIONS = foreign
+AUTOMAKE_OPTIONS = foreign dist-bzip2 dist-xz dist-zip
 setproxy_SOURCES = setproxy.c
 
 # Add compilation flags
 setproxy_CFLAGS = -Wall -Wextra -O2
 
 # Define the distribution files
-EXTRA_DIST = README.md CMakeLists.txt build.sh .gitignore cmake_clean.cmake
+EXTRA_DIST = README.md CMakeLists.txt build.sh .gitignore cmake_clean.cmake LICENSE
 all: all-am
 
 .SUFFIXES:
@@ -507,6 +508,9 @@ distdir-am: $(DISTFILES)
 	    || exit 1; \
 	  fi; \
 	done
+	$(MAKE) $(AM_MAKEFLAGS) \
+	  top_distdir="$(top_distdir)" distdir="$(distdir)" \
+	  dist-hook
 	-test -n "$(am__skip_mode_fix)" \
 	|| find "$(distdir)" -type d ! -perm -755 \
 		-exec chmod u+rwx,go+rx {} \; -o \
@@ -517,7 +521,6 @@ distdir-am: $(DISTFILES)
 dist-gzip: distdir
 	tardir=$(distdir) && $(am__tar) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).tar.gz
 	$(am__post_remove_distdir)
-
 dist-bzip2: distdir
 	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2
 	$(am__post_remove_distdir)
@@ -529,7 +532,6 @@ dist-bzip3: distdir
 dist-lzip: distdir
 	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz
 	$(am__post_remove_distdir)
-
 dist-xz: distdir
 	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz
 	$(am__post_remove_distdir)
@@ -551,7 +553,6 @@ dist-shar: distdir
 	@echo WARNING: "It will be removed altogether in Automake 2.0" >&2
 	shar $(distdir) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).shar.gz
 	$(am__post_remove_distdir)
-
 dist-zip: distdir
 	-rm -f $(distdir).zip
 	zip -rq $(distdir).zip $(distdir)
@@ -766,19 +767,20 @@ uninstall-am: uninstall-binPROGRAMS
 .PHONY: CTAGS GTAGS TAGS all all-am am--depfiles am--refresh check \
 	check-am clean clean-binPROGRAMS clean-cscope clean-generic \
 	cscope cscopelist-am ctags ctags-am dist dist-all dist-bzip2 \
-	dist-bzip3 dist-gzip dist-lzip dist-shar dist-tarZ dist-xz \
-	dist-zip dist-zstd distcheck distclean distclean-compile \
-	distclean-generic distclean-tags distcleancheck distdir \
-	distuninstallcheck dvi dvi-am html html-am info info-am \
-	install install-am install-binPROGRAMS install-data \
-	install-data-am install-dvi install-dvi-am install-exec \
-	install-exec-am install-exec-hook install-html install-html-am \
-	install-info install-info-am install-man install-pdf \
-	install-pdf-am install-ps install-ps-am install-strip \
-	installcheck installcheck-am installdirs maintainer-clean \
-	maintainer-clean-generic mostlyclean mostlyclean-compile \
-	mostlyclean-generic pdf pdf-am ps ps-am tags tags-am uninstall \
-	uninstall-am uninstall-binPROGRAMS uninstall-hook
+	dist-bzip3 dist-gzip dist-hook dist-lzip dist-shar dist-tarZ \
+	dist-xz dist-zip dist-zstd distcheck distclean \
+	distclean-compile distclean-generic distclean-tags \
+	distcleancheck distdir distuninstallcheck dvi dvi-am html \
+	html-am info info-am install install-am install-binPROGRAMS \
+	install-data install-data-am install-dvi install-dvi-am \
+	install-exec install-exec-am install-exec-hook install-html \
+	install-html-am install-info install-info-am install-man \
+	install-pdf install-pdf-am install-ps install-ps-am \
+	install-strip installcheck installcheck-am installdirs \
+	maintainer-clean maintainer-clean-generic mostlyclean \
+	mostlyclean-compile mostlyclean-generic pdf pdf-am ps ps-am \
+	tags tags-am uninstall uninstall-am uninstall-binPROGRAMS \
+	uninstall-hook
 
 .PRECIOUS: Makefile
 
@@ -789,6 +791,91 @@ install-exec-hook:
 
 uninstall-hook:
 	@echo "setproxy has been uninstalled from $(bindir)"
+
+# Add dist-hook to clean unnecessary files from distribution
+dist-hook:
+	rm -rf $(distdir)/autom4te.cache
+	rm -rf $(distdir)/build
+	rm -f $(distdir)/*~
+	rm -f $(distdir)/*.o
+
+# Custom target to generate distribution package and verify it
+distcheck-local:
+	@echo "Distribution package has been created and verified."
+
+# Git related targets
+.PHONY: git-status git-add git-commit git-push git-pull git-log git-tag git-branch
+
+# Display git status
+git-status:
+	@echo "Git Repository Status:"
+	@git status
+
+# Add all changes to staging
+git-add:
+	@echo "Adding all changes to staging..."
+	@git add .
+	@echo "Added changes. Current status:"
+	@git status
+
+# Commit changes with a provided message
+# Usage: make git-commit MSG="Your commit message"
+git-commit:
+	@if [ -z "$(MSG)" ]; then \
+		echo "Error: Commit message not provided. Use make git-commit MSG=\"Your commit message\""; \
+		exit 1; \
+	fi
+	@echo "Committing changes with message: $(MSG)"
+	@git commit -m "$(MSG)"
+
+# Push commits to remote repository
+# Usage: make git-push [REMOTE=origin] [BRANCH=main]
+git-push:
+	@REMOTE=$${REMOTE:-origin}; \
+	BRANCH=$${BRANCH:-main}; \
+	echo "Pushing to $${REMOTE}/$${BRANCH}..."; \
+	git push $${REMOTE} $${BRANCH}
+
+# Pull changes from remote repository
+# Usage: make git-pull [REMOTE=origin] [BRANCH=main]
+git-pull:
+	@REMOTE=$${REMOTE:-origin}; \
+	BRANCH=$${BRANCH:-main}; \
+	echo "Pulling from $${REMOTE}/$${BRANCH}..."; \
+	git pull $${REMOTE} $${BRANCH}
+
+# Show git log
+# Usage: make git-log [N=10] (where N is the number of commits to show)
+git-log:
+	@N=$${N:-10}; \
+	echo "Showing last $${N} commits:"; \
+	git log --pretty=format:"%h - %an, %ar : %s" -n $${N}
+
+# Create a new tag
+# Usage: make git-tag TAG=v1.0.0 [MSG="Tag message"]
+git-tag:
+	@if [ -z "$(TAG)" ]; then \
+		echo "Error: Tag name not provided. Use make git-tag TAG=v1.0.0 [MSG=\"Tag message\"]"; \
+		exit 1; \
+	fi
+	@if [ -z "$(MSG)" ]; then \
+		echo "Creating tag $(TAG)..."; \
+		git tag "$(TAG)"; \
+	else \
+		echo "Creating tag $(TAG) with message: $(MSG)"; \
+		git tag -a "$(TAG)" -m "$(MSG)"; \
+	fi
+	@echo "Tag created. Use 'make git-push REMOTE=origin TAG=$(TAG)' to push the tag."
+
+# Create a new branch and switch to it
+# Usage: make git-branch BRANCH=feature-branch
+git-branch:
+	@if [ -z "$(BRANCH)" ]; then \
+		echo "Error: Branch name not provided. Use make git-branch BRANCH=feature-branch"; \
+		exit 1; \
+	fi
+	@echo "Creating and switching to branch $(BRANCH)..."
+	@git checkout -b "$(BRANCH)"
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

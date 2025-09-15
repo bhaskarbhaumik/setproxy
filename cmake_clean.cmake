@@ -1,8 +1,8 @@
 
 file(REMOVE_RECURSE
-    /Users/BB119780/Downloads/setproxy/CMakeFiles
-    /Users/BB119780/Downloads/setproxy/CMakeCache.txt
-    /Users/BB119780/Downloads/setproxy/cmake_install.cmake
-    /Users/BB119780/Downloads/setproxy/Makefile
-    /Users/BB119780/Downloads/setproxy/setproxy
+    /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeFiles
+    /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/CMakeCache.txt
+    /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/cmake_install.cmake
+    /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/Makefile
+    /Users/BB119780/src/github.com/bhaskarbhaumik/setproxy/build/setproxy
 )
