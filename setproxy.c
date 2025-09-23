@@ -349,13 +349,13 @@ int set_proxy(char *proxy_server) {
         char *var;
         for (int i = 0; i < 3; i++) {
             var = _env_var_proxy[i];
-            printf("export %s_proxy=\"%s\"\n", var, proxy_server);
+            printf("export %s_proxy=\"http://%s\"\n", var, proxy_server);
         }
         printf("export no_proxy=\"%s\"\n", no_proxy);
         for (int i = 0; i < 3; i++) {
             var = strdup(_env_var_proxy[i]);
             strtoupper(var);
-            printf("export %s_PROXY=\"%s\"\n", var, proxy_server);
+            printf("export %s_PROXY=\"http://%s\"\n", var, proxy_server);
             free(var);
         }
         printf("export NO_PROXY=\"%s\"\n", no_proxy);
